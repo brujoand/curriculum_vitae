@@ -3,15 +3,15 @@ sudo: required
 addons:
   apt:
     packages:
-      - pandoc
-      - wkhtmltopdf
+    - pandoc
+    - wkhtmltopdf
+    - xvfb
 script: make
 deploy:
   provider: releases
   api_key:
-    secure: aJY9hfVDYtH/ivvOIxnCIZOMooY/68cIaMPrfYEGdWxXrfOKHw9uekOCGmIipQKQnnICCqAwpGhQV99bDYKUcXe32g3HDWj0UVfkikhW0cwl9UAX+zLB5Ufchr3KFeC3u0Lqk3eal3UFQyipC8k+aNsKGlO/lqXvG3NQ4N7VsAk=
+    secure: 7hOKbv9dPqfwEBCPmIw5PNyS3s06vxCYSiACrWJU9w14wgHnNRENEXGMi/kvJ76TLNokwtQuWH9ohyNLWXqMO0B/7G8gxrqbL0QD23JNzCxjbjtWG2Uuq0E/i9uDk7ZsLQF4lehXvVeZmIhm23W24TUfErCtLiezh/LAfRtmPcZkVOb7BW2IfBncD5UmYFiV4nID8nl+z+tayTEOyvhKj/naA2sKXCwDPBH0QbXM8RDibup34SaMwhwMDaM4b2DW9Zxnbldliv6IxhbPCXkwUyFMo34trOuLGKKEP7Nw42R0/Dza7sa5sXL70spPDc5iRHWg9SOs5+9Gs4djzbCBhyYFcWqD696eqkce1Axs3o0EaMUYmggqS1kkHu1uj/bJLFSon54EM6ZRGwDD9ldjoHcCJHI5sEtrkAIL5H2FAchIK0HgBIdy5GGFUte+HqT9ScyYNLQh4x6GnmyYj4WZHtw7goqiEQhxiAc5N2Z3xCOC0XQWfRjUxTgUezJeYaUBS80xfk9E7Y/sTyUl49beVJJJRPSKWL8rMQNv6ztPzh8A43sLthEtxfL3dnGnQja8AV4Pj2azrLw3MhlHPbrXS3E7d6YYgkB072KhbIRQLGyGsss9DzFR+qrVASQqmkQj/h886pNnbtgrZd8rnMiOdkQlqIJ3ErOiP00muC4y+gI=
   skip_cleanup: true
-  file: 'output/resume.zip'
+  file: resume.zip
   on:
-    repo: brujoand/resume
     tags: true
