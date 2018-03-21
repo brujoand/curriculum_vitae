@@ -1,0 +1,17 @@
+language: c
+sudo: required
+addons:
+  apt:
+    packages:
+      - pandoc
+      - wkhtmltopdf
+script: make
+deploy:
+  provider: releases
+  api_key:
+    secure: aJY9hfVDYtH/ivvOIxnCIZOMooY/68cIaMPrfYEGdWxXrfOKHw9uekOCGmIipQKQnnICCqAwpGhQV99bDYKUcXe32g3HDWj0UVfkikhW0cwl9UAX+zLB5Ufchr3KFeC3u0Lqk3eal3UFQyipC8k+aNsKGlO/lqXvG3NQ4N7VsAk=
+  skip_cleanup: true
+  file: 'output/resume.zip'
+  on:
+    repo: brujoand/resume
+    tags: true
