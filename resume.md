@@ -12,12 +12,13 @@ Anders Brujordet
 Projects
 ----------------
 
-2016-2017
+2016-2019
 :   *"Delivery Team" - [Schibsted](http://schibsted.com)*
 
     Developing and running Spinnaker for multi cloud deployment pipelines. The
     responsibility of the team is to enable Schibsteds 1500 developers to quickly
     build, test, deploy and manage their services using Spinnaker and Travis Enterprise.
+    Current role as the Tech lead and Technical product owner for CI.
     Key technologies are Java, Python, AWS and Kubernetes.
 
 2014-2016
@@ -59,8 +60,8 @@ Projects
 Positions
 -------------
 
-2016-2017
-:   *Senior Infrastructure Developer at SPT - [Schibsted](http://schibsted.com)*
+2016-2019
+:   *Tech Lead & Senior Software Engineer at SPT - [Schibsted](http://schibsted.com)*
 
     Schibsted Media Group is an international media group with 6,900 employees in 30 countries.
     They have 200 million users around the world and aim to become a global leader in online
@@ -121,6 +122,7 @@ Languages
 
 Technologies
 :   AWS, Kubernetes, Varnish, Docker, HAproxy, Apache, Nginx, Jetty, Tomcat, Node, Vagrant<br/>\
+:   Radare2, Metasploit, Wireshark, Tcpdump<br/>\
 :   Puppet, Consul, Socat, Greenpages, Ansible<br/>\
 :   Apache CXF, Hibernate, JPA, Logback, Log4j, Spring<br/>\
 :   Sumologic, Datadog, Kibana, Zipkin, Graphite, Grafana, Munin, Sensu, Nagios, Logstash<br/>\
@@ -181,7 +183,8 @@ Other
 Hobbies
 :   I'm a power-lifter, play guitar and have a passion for behavioural psychology. In particular regarding biases
     cognitive distortions and body language which I've held presentations about.
-    I ended my soccer career in the third division, but still like to play.<br/>\
+    I ended my soccer career in the third division, but still like to play. Lately I've been playing a lot
+    with security and pentesting.<br/>\
 
 
 Voluntary work
@@ -205,5 +208,5 @@ Github
 ----
 
 > <anders@brujordet.no> • +47 9225 3993 • @brujoand \
->  Øyaveien 51a, 1900 Fetsund, Norway \ \
+>  Vestbybakken 5, 1900 Fetsund, Norway \ \
 
