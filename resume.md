@@ -4,64 +4,29 @@ Anders Brujordet
 
 ----
 
->  Keywords: Scala, Java, Bash, DevOps, Integration & Automation\
+>  Keywords: DevOps, Scala, Java, Bash, Integration & Automation\
 >  Title: Senior Infrastructure Developer
 
 ----
 
-Projects
+Positions
 ----------------
 
-2016-2019
-:   *"Delivery Team" - [Schibsted](http://schibsted.com)*
+2019-Current
 
-    Developing and running Spinnaker for multi cloud deployment pipelines. The
-    responsibility of the team is to enable Schibsteds 1500 developers to quickly
-    build, test, deploy and manage their services using Spinnaker and Travis Enterprise.
-    Current role as the Tech lead and Technical product owner for CI.
-    Key technologies are Java, Python, AWS and Kubernetes.
+:   *"CI/CD Platform Lead" - [VPS](https://vps.no)
 
-2014-2016
-:   *"Team API" - [Finn.no](http://m.finn.no)*
+    VPS is one of three companies in the Oslo Børs VPS group. The group offers co-ordinated
+    and attractive marketplaces for listing and trade in securities, registration of ownership,
+    clearing and settlement of securities in Norway, market data and on-line solutions.
 
-    Developing and maintaining Finn's internal and public API. Finn exposes a RESTful service
-    which serves Atom XML to both internal and external clients. The work has been focused on
-    cleaning, merging and optimising data for consumption. In addition there has been a lot of
-    focus on making our Varnish caching testable to make future changes easier. Key technologies
-    are Scala, REST, Docker, Varnish and bash.<br/>\
-
-2014
-:   *"Bedre Styring" - [Kommuneforlaget](http://www.kommuneforlaget.no)*
-
-    Developing a light weight data warehouse from scratch using Scala, Oracle DB12 and AngularJS.
-    The system exposes REST endpoints for other interactions and gathers data from major Norwegian
-    governmental services.<br/>\
-
-2011-2014
-:   *"Oslo Municipality, development and integration" - [Oslo Kommune](http://www.oslokommune.no)*
-
-    Development and maintenance of the integration platform ITAS, which connects some 100 of
-    the municipalities public services. Special responsibilities included development of the
-    integration with Telenor Mobilt Bedriftsnett and 02180. The project was performed with a
-    strong focus on "DevOps" with developers having full control and responsibility for deployment,
-    monitoring and so forth. Key technologies were Oracle DB, Puppet, Ruby, ColdFusion,
-    Github Enterprise, Bash and Java.<br/>\
-
-2010-2011
-:   *"Nav Pensjonsprogrammet" - [NAV](http://www.nav.no)*
-
-    Development and testing of the governmental letter templating system which is a part of Norway's
-    largest IT project to date. The letter templating system delivers automated responses to a large
-    number of governmental systems. This project also included Java development, automation and
-    scripting in Python and a strong focus on process and project methodologies.<br/>\
-
-
-
-Positions
--------------
+    My current role owns the full CI/CD pipelines including build, code analysis,
+    deployments and engineering productivity.
 
 2016-2019
-:   *Tech Lead & Senior Software Engineer at SPT - [Schibsted](http://schibsted.com)*
+
+:   *Tech Lead & Senior Software Engineer at SPT in Schibsted Media Group -
+    [schibsted.no](https://schibsted.no)
 
     Schibsted Media Group is an international media group with 6,900 employees in 30 countries.
     They have 200 million users around the world and aim to become a global leader in online
@@ -70,6 +35,12 @@ Positions
     The goal of the Schibsted organization SPT, is to create a global platform for all of
     these companies, to remove duplication of efforts, and aid in cooperation across the daughter
     companies.
+
+    My roles included Developing and running Spinnaker for multi cloud
+    deployment pipelines. The responsibility of the team is to enable Schibsteds 1500 developers to
+    quickly build, test, deploy and manage their services using Spinnaker and Travis Enterprise.
+    Also held the role as Tech lead and Technical product owner for CI.
+    Key technologies are Spinnaker, Java, Python, AWS and Kubernetes.<br/>
 
 2014-2016
 :   *Senior Developer at [Finn.no](http://m.finn.no/)*
@@ -80,6 +51,12 @@ Positions
     explore more of the benefits of automation, containerisation and infrastructure as well as
     learning a lot about Scala, REST and debugging large systems.<br/>\
 
+    Developing and maintaining Finn's internal and public API. Finn exposes a RESTful service
+    which serves Atom XML to both internal and external clients. The work has been focused on
+    cleaning, merging and optimising data for consumption. In addition there has been a lot of
+    focus on making our Varnish caching testable to make future changes easier. Key technologies
+    are Scala, REST, Docker, Varnish and bash.<br/>\
+
 2011-2014
 :   *Senior Developer at [Knowit](https://www.knowit.no/)*
 
@@ -88,12 +65,30 @@ Positions
     very conscious about active learning and spends large resources on sharing knowledge both internally
     and withing the IT community in Oslo. I was also fortunate enough to be asked to arrange recruitment
     events for students and hold interviews for possible hires.<br/>\
+    In the project "Bedre Styring" my team was developing a light weight data warehouse from scratch using
+    Scala, Oracle DB12 and AngularJS.
+    The system exposes REST endpoints for other interactions and gathers data from major Norwegian
+    governmental services.<br/>\
+
+    As a part of the Platform Integration team within Oslo municipality I took
+    part in development and maintenance of the integration platform ITAS, which connects some 100 of
+    the municipalities public services. Special responsibilities included development of the
+    integration with Telenor Mobilt Bedriftsnett and 02180. The project was performed with a
+    strong focus on "DevOps" with developers having full control and responsibility for deployment,
+    monitoring and so forth. Key technologies were Oracle DB, Puppet, Ruby, ColdFusion,
+    Github Enterprise, Bash and Java.<br/>\
 
 2010-2011
 :   *Developer at [SiriusIT](http://www.siriusit.no)*
 
     SiriusIT sends all their new hires on a Java Certification training and exam. This position included
     some Java and Python development, but was mostly focused on project methologies.<br/>\
+
+    As a engineer in "NAV - Pensjonpgrammet" i took part in development and testing of the governmental
+    letter templating system which is a part of Norway's largest IT project to date.
+    The letter templating system delivers automated responses to a large
+    number of governmental systems. This project also included Java development, automation and
+    scripting in Python and a strong focus on process and project methodologies.<br/>\
 
 2009
 :   *Internship at [SiriusIT](http://www.siriusit.no)*
@@ -118,14 +113,16 @@ Technologies
 -----------
 
 Languages
-:   Java, Scala, Python, Ruby, Lisp, SQL, PLSQL, Bash, PHP, JavaScript, ColdFusion, C++, C#<br/>\
+:   Java, Scala, Python, Ruby, Lisp, SQL, PLSQL, Bash, PHP, JavaScript,
+    ColdFusion, C++, C#, kotlin, rust, go<br/>\
 
 Technologies
-:   AWS, Kubernetes, Varnish, Docker, HAproxy, Apache, Nginx, Jetty, Tomcat, Node, Vagrant<br/>\
+:   AWS, Kubernetes, Openshift, Varnish, Docker, HAproxy, Apache, Nginx, Jetty, Tomcat, Node, Vagrant<br/>\
 :   Radare2, Metasploit, Wireshark, Tcpdump<br/>\
 :   Puppet, Consul, Socat, Greenpages, Ansible<br/>\
 :   Apache CXF, Hibernate, JPA, Logback, Log4j, Spring<br/>\
-:   Sumologic, Datadog, Kibana, Zipkin, Graphite, Grafana, Munin, Sensu, Nagios, Logstash<br/>\
+:   Sumologic, Datadog, Kibana, Zipkin, Graphite, Grafana, Munin, Sensu, Nagios,
+    Logstash, Splunk, Prometheus<br/>\
 :   Confluence, MediaWiki, SharePoint, WordPress, GitHub Enterprise, Docker Hub,
     Github Enterprise, JIRA, Stash, Trac, Wiki<br/>\
 :   Travis, Jenkins, Bambo, Hamcrest, JUnit, Mockito, Rspec, SoapUI, ScalaTest<br/>\
@@ -183,7 +180,7 @@ Other
 Hobbies
 :   I'm a power-lifter, play guitar and have a passion for behavioural psychology. In particular regarding biases
     cognitive distortions and body language which I've held presentations about.
-    I ended my soccer career in the third division, but still like to play. Lately I've been playing a lot
+    I run my own deployment and monitoring platform at home and lately I've been playing a lot
     with security and pentesting.<br/>\
 
 
