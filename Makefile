@@ -4,7 +4,7 @@ resume.html: resume.md style.css
 	pandoc --standalone -c style.css --from markdown --to html -o resume.html resume.md
 
 resume.pdf: resume.html
-	xvfb-run --server-args="-screen 0, 1024x768x24" wkhtmltopdf --zoom 3 -s Letter resume.html resume.pdf
+	weasyprint -s style.css resume.html test.pdf
 
 resume.docx: resume.md
 	pandoc --from markdown --to docx -o resume.docx resume.md
