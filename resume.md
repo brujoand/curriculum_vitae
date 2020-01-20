@@ -14,7 +14,7 @@ Positions
 
 2019-Current
 
-:   *"CI/CD Platform Lead" - [VPS](https://vps.no)
+:   *CI/CD Platform Lead - [VPS](https://vps.no)
 
     VPS is one of three companies in the Oslo Børs VPS group. The group offers co-ordinated
     and attractive marketplaces for listing and trade in securities, registration of ownership,
@@ -191,11 +191,13 @@ Voluntary work
 
 
 Publications
-:   [Finding an Optimal Approach for Indexing DNA Sequences](http://www.diva-portal.org/smash/get/diva2:395661/FULLTEXT01.pdf)<br/>\
+:   [Finding an Optimal Approach for Indexing DNA Sequences](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/252343/395661_FULLTEXT01.pdf?sequence=3&isAllowed=y)<br/>\
 
-    [If you can't click it, BASH it! - Javazone 2012](http://video.javazone.no/talk/49381223) - Norwegian<br/>\
+    [If you can't click it, BASH it! - Javazone 2012](https://vimeo.com/49381223) - Norwegian<br/>\
 
     [En flørt med Android - KnowitLabs](http://beta.knowitlabs.no/en-flort-med-android-hvordan-jeg-konverterte-til-en-google-play-edition/) - Norwegian<br/>\
+
+    [My blog](https://blog.brujordet.no)
 
 Github
 :   My [github](https://github.com/brujoand) page contains some of the things I work on for fun, including the markdown for [this](https://github.com/brujoand/resume)
