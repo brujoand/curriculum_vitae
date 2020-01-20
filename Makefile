@@ -4,7 +4,7 @@ resume.html: resume.md style.css
 	pandoc --standalone -c style.css --from markdown --to html -o resume.html resume.md
 
 resume.pdf: resume.html
-	weasyprint -s style.css resume.html test.pdf
+	weasyprint -s style.css resume.html resume.pdf
 
 resume.docx: resume.md
 	pandoc --from markdown --to docx -o resume.docx resume.md
