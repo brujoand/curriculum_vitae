@@ -24,16 +24,10 @@ page[size="A4"] {
   height: 29.7cm;
 }
 
-@media print {
-  body, page {
-    margin: 0;
-    box-shadow: 0;
-  }
-}
 
 .container {
   display: grid;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto auto auto auto;
   grid-template-columns: auto 20%;
   height: 100%;
 }
@@ -79,7 +73,7 @@ page[size="A4"] {
 
 .information {
   grid-column: 2;
-  grid-row: 2/4;
+  grid-row: 2/6;
   text-align: left;
   background-color: lightgrey;
 }
@@ -135,7 +129,7 @@ hr {
 
 h1 {
   font-family: helvetica neue, helvetica;
-  font-weight: 300;
+  font-weight: 350;
   color: rgba(255,255,255,.9);
   font-size: 28px;
   line-height: 0.8;
@@ -145,7 +139,7 @@ h1 {
 
 h2 {
   font-family: helvetica neue, helvetica;
-  font-weight: 200;
+  font-weight: 250;
   line-height: 0.4;
   color: rgba(255,255,255,.8);
   font-size: 23px;
@@ -199,6 +193,22 @@ a {
   padding-top: 0em;
 }
 
+.download {
+  grid-row: 4;
+  grid-column: 2;
+  text-align: center;
+  padding-top: 2em;
+}
+
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+  .download {
+    display: none;
+  }
+}
 
 
 

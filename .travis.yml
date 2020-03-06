@@ -1,19 +1,12 @@
-language: python
+language: node
 sudo: required
-addons:
-  apt:
-    packages:
-    - pandoc
-script: pip install weasyprint && make
+script: npm i chrome-headless-render-pdf -g && chrome-headless-render-pdf --url file://${PWD}/index.html --pdf resume.pdf --no-margins --include-background --page-ranges 1
 deploy:
   provider: releases
   api_key:
     secure: 7Dr8t6uQ7bzE+CX0u0jlfsD5RzIet25Ph67YY/Du3WcboMHaGFCyRPW8o6Kmix0rbdseFpCg3gFrSdULgE13eMWDQghr7yhklUJuvyyGUSbwxIWbDmCB0l1bZNGjEOiabU30CJZqBEbKzr4dgTJCVPS47Cv2gdpaM/nOe6h7bVkvYLbiZnyQmuzgnIv9BT/3O6kp247t5z8QBoHKohyRB3vAz6ewiZAdZTfkCaN/pBNdvRedrLicxBIxhVsR2SsOKWZgaLzkkMk+9irWizlhUQYFfJ09NMuvQxTDdPwhYOZZcc6UIfMNUvKiIGIhIS3kERc7D5aW4fRGIGuo2sEBYy8/jB3NvaZIEH+dSf0SxnCkpD3agrsleZDFGW3ulG2epIzA9swLdMpf+JiZc7kCTfx9EFDzFvhJrwCOUE4Sq3cjGgTbzBP1zzhT9Q0pMoSuu/1eJzDyg7mbVRcn6sujQrIccWsqODJaIJNKtjmy5kryVqFUL20q2q3EY5f5yooBcGwe00WI2jakFIMtVXylxBBkk4TdkJ51R2AWRYLvTAtUAwmwN15uXO5GBhD4wryrBofMVbjb3pUxv/GHFsRNO/EPe+OGhAfe3XNcj7Z+bJg7jRkfNqLqvSd/YOdqfZWRRs39eTOch1iw4QAuWB1ztjWKYv/DFu4J44Xw1ylgX60=
   skip_cleanup: true
   file:
-    - resume.zip
-    - resume.html
     - resume.pdf
-    - resume.docx
   on:
     tags: true
