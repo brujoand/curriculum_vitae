@@ -23,7 +23,7 @@ page {
 
 .container {
   display: grid;
-  grid-template-rows: 15vw auto auto auto;
+  grid-template-rows: 10% auto auto auto;
   grid-template-columns: auto 20%;
   height: 100%;
 }
@@ -150,7 +150,6 @@ h4 {
   line-height: 0em;
   padding-bottom: 0em;
 }
-
 
 .score {
   line-height: 0em;
