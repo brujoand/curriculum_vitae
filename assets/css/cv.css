@@ -7,27 +7,23 @@ body {
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
   font-family: helvetica neue, helvetica;
-  font-size: 10px;
+  font-size: 1vw;
   background: rgb(204,204,204);
 }
 
 page {
   background: white;
-  display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;
   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-}
-
-page[size="A4"] {
-  width: 793.7px;
-  height: 1122.52px;
+  width: 80vw;
+  height: 113.12vw;
 }
 
 
 .container {
   display: grid;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: 15vw auto auto auto;
   grid-template-columns: auto 20%;
   height: 100%;
 }
@@ -131,9 +127,8 @@ h1 {
   font-family: helvetica neue, helvetica;
   font-weight: 350;
   color: rgba(255,255,255,.9);
-  font-size: 28px;
-  line-height: 0.8;
-  padding-top: 0.5em;
+  font-size: 350%;
+  line-height: 0.6;
 }
 
 
@@ -142,7 +137,7 @@ h2 {
   font-weight: 250;
   line-height: 0.4;
   color: rgba(255,255,255,.8);
-  font-size: 23px;
+  font-size: 280%;
   padding-top: 0.5em;
 }
 
@@ -168,7 +163,7 @@ h4 {
 
 .social {
   text-align: center;
-  font-size: 25px;
+  font-size: 250%;
   padding-bottom: 1em;
 }
 
@@ -177,8 +172,8 @@ a {
 }
 
 .avatar img {
-  max-width: 7rem;
-  max-height: 7rem;
+  max-width: 12em;
+  max-height: 12em;
   border-radius: 100%;
   border: .2rem solid #57cc8a;
 }
@@ -197,12 +192,16 @@ a {
   grid-row: 4;
   grid-column: 2;
   text-align: center;
+  padding-bottom: 1em;
 }
 
 @media print {
   body, page {
     margin: 0;
     box-shadow: 0;
+    width: 100vw;
+    height: 141.4vw;
+    font-size: 1.25vw;
   }
   .download {
     display: none;
