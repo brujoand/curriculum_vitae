@@ -1,10 +1,5 @@
 My resume
 =========
 
-This is based on the work of [Christophe-Marie Duquesne](http://chmd.fr/)
-
-To use this template you will need 
- - Pandoc
- - wkhtmltopdf
-
- 
+It's written in HTML using CSS grid, and the pdf is generated
+by using headless chrome.
