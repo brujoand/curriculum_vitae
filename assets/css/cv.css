@@ -11,7 +11,7 @@ body {
   background: rgb(204,204,204);
 }
 
-page {
+.page {
   background: white;
   margin: 0 auto;
   margin-bottom: 0.5cm;
@@ -200,7 +200,7 @@ p {
 }
 
 @media print {
-  body, page {
+  body, .page {
     margin: 0;
     box-shadow: 0;
     width: 100vw;
