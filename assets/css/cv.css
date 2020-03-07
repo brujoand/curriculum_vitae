@@ -93,7 +93,7 @@ page {
 
 .timeline-item {
   display: grid;
-  grid-template-columns: 13% auto;
+  grid-template-columns: 12% 88%;
   grid-auto-rows: 1fr;
 
 }
@@ -118,7 +118,7 @@ page {
 }
 
 hr {
-  border: .01rem solid black;
+  border: .01em solid black;
   width: 99%;
 }
 
