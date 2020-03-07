@@ -141,7 +141,8 @@ h2 {
 }
 
 h3 {
-  line-height: 0.2em;
+  line-height: 0em;
+  padding-bottom: 0em;
 }
 
 
@@ -172,7 +173,7 @@ a {
 .avatar img {
   max-width: 95%;
   border-radius: 100%;
-  border: .2rem solid #57cc8a;
+  border: .1em solid #57cc8a;
 }
 
 .avatar {
