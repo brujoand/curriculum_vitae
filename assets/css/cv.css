@@ -143,12 +143,14 @@ h2 {
 h3 {
   line-height: 0em;
   padding-bottom: 0em;
+  font-size: 100%;
 }
 
 
 h4 {
   line-height: 0em;
   padding-bottom: 0em;
+  font-size: 100%;
 }
 
 .score {
