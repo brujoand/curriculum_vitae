@@ -170,8 +170,7 @@ a {
 }
 
 .avatar img {
-  max-width: 12em;
-  max-height: 12em;
+  max-width: 95%;
   border-radius: 100%;
   border: .2rem solid #57cc8a;
 }
