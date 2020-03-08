@@ -3,7 +3,7 @@
  */
 html {
   font-size: 1.10vw;
-  line-height: 1;
+  line-height: 1.2em;
   font-family: Helvetica, 'Helvetica neue';
   background: rgb(204,204,204);
 }
@@ -21,7 +21,7 @@ html {
 
 .container {
   display: grid;
-  grid-template-rows: 10% auto auto auto;
+  grid-template-rows: 12% auto auto auto;
   grid-template-columns: auto 20%;
   height: 100%;
 }
@@ -189,17 +189,22 @@ a {
 }
 
 @media print {
-  body, .page {
-    margin: 0;
-    box-shadow: 0;
+  html {
+    line-height: 1.2em;
+    font-size: 1.25vw;
+    background: #fff;
+  }
+
+  .page {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-shadow: 0 0 0;
     width: 100vw;
     height: 141.4vw;
-    font-size: 1.25vw;
   }
   .download {
     display: none;
   }
 }
-
 
 
