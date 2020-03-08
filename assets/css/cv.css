@@ -3,6 +3,7 @@
  */
 html {
   font-size: 1.10vw;
+  line-height: 1;
   font-family: Helvetica, 'Helvetica neue';
   background: rgb(204,204,204);
 }
@@ -20,8 +21,8 @@ html {
 
 .container {
   display: grid;
-  grid-template-rows: 12vw auto auto auto;
-  grid-template-columns: auto 15vw;
+  grid-template-rows: 10% auto auto auto;
+  grid-template-columns: auto 20%;
   height: 100%;
 }
 
@@ -114,10 +115,7 @@ html {
   padding-left: 1em;
 }
 
-hr {
-  border: 0.05vw solid black;
-  width: 99%;
-}
+hr {height: 0.1em;background-color:#000;border: 0 none;}
 
 h1 {
   font-weight: 350;
