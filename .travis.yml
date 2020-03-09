@@ -1,5 +1,5 @@
 language: node
-sudo: required
+dist: xenial
 script: npm i chrome-headless-render-pdf -g && chrome-headless-render-pdf --url file://${PWD}/index.html --pdf resume.pdf --no-margins --include-background --page-ranges 1
 deploy:
   provider: releases
